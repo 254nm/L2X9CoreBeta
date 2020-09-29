@@ -1,0 +1,14 @@
+name: L2X9CoreBeta
+version: ${project.version}
+main: org.l2x9.l2x9corebeta.Main
+prefix: L2X9CoreBeta
+authors: [ 254n_m ]
+description: Core plugin for beta 1.5
+website: https://www.l2x9.org/
+commands:
+  give:
+    description: Give the spesified player an item
+    usage: /give <player> <item> [amount]
+  kit:
+    description: Give items to the player
+    usage: /kit <kit>
