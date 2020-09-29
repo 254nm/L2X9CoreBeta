@@ -7,6 +7,6 @@ import org.bukkit.event.player.PlayerQuitEvent;
 public class PlayerQuit extends PlayerListener {
     @Override
     public void onPlayerQuit(PlayerQuitEvent event) {
-        event.setQuitMessage(ChatColor.GRAY + event.getPlayer().getName() + " Quit");
+        event.setQuitMessage(ChatColor.GRAY + event.getPlayer().getName() + " left.");
     }
 }
